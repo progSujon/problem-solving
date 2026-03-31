@@ -19,6 +19,14 @@ sum(20,20)
 
 
 function rectAngle(height,width){
+
+    if(height <= 0){
+        throw new RangeError("height should be a positive number");
+    }
+
+    if(width <= 0) {
+        throw new RangeError("Width should be a positive number")
+    }
     
     let rectangle = height * width ;
     console.log(rectangle);
