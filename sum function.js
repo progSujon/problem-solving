@@ -22,6 +22,7 @@ function rectAngle(height,width){
 
     if(height <= 0){
         throw new RangeError("height should be a positive number");
+        //throw new RangeError(); ব্যবহার করা হয় যখন কোনো মান (value) তার allowed range-এর বাইরে চলে যায়।
     }
 
     if(width <= 0) {
