@@ -24,7 +24,7 @@ fruits.forEach((fruit,index,array) => {
 
 
 
-total price calculate
+// total price calculate
 
 const cart = [
     {name:'phone',price:200},
